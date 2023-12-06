@@ -70,3 +70,11 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignore most of the Oculus Integration Package
+/[Aa]ssets/[Oo]culus/**/
+/[Aa]ssets/[Oo]culus/*
+
+# Allow the necessary parts of the Oculus Integration Package
+!/[Aa]ssets/[Oo]culus/VR/
+!/[Aa]ssets/[Oo]culus/VR/**/*
