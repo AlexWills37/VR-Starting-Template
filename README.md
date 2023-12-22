@@ -37,6 +37,9 @@ It contains:
 4. Click the **Unity Hub** button to install the editor through the Unity Hub.
     > If you do not install the editor through the Unity Hub,
     > you will not have the option to also install the Android SDK/NDK Tools or the OpenJDK modules.
+    
+    ![Image of Unity's download page with a red circle drawn around the Unity Hub button](https://github.com/AlexWills37/VR-Starting-Template/assets/77563588/cbf0b982-0d76-4186-a323-6b9a0d0cdb21)
+
 5. Check the boxes for:
     - Android Build Support
         - OpenJDK
@@ -45,6 +48,10 @@ It contains:
     > add these modules with the Unity Hub by going to the
     > **Installs** section, right-clicking the install
     > for Unity 2021.3.23, and clicking **Add modules**.
+    
+    ![Image of the modules that should be selected to install](https://github.com/AlexWills37/VR-Starting-Template/assets/77563588/6f523d17-33b4-4917-a810-695739a38c74)
+
+    
 6. Click continue, accept the terms and agreements, and install.
 
 #### Opening this project
