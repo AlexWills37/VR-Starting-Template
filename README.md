@@ -68,11 +68,14 @@ This guide has three sections:
 4. In Unity, at the top menu bar, click **File > Build Settings**.
 5. Switch target platform to Android if it isn't already chosen.
 6. Under **Run Device**, select the headset. If you do not see it, click **Refresh**.
-    ![Image of the Build Settings window with the Quest device selected.](https://scontent-mia3-2.xx.fbcdn.net/v/t39.2365-6/93757346_538988363698347_6750010133272592384_n.png?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=bMbKU3vQjgwAX_v-TZQ&_nc_ht=scontent-mia3-2.xx&oh=00_AfBW_MxwYrgnbrgA7e5h6BVbiQqMY_zN769d_2zgeGaoag&oe=65A03613)
+    
+   ![Image of the Build Settings window with the Quest device selected](https://github.com/AlexWills37/VR-Starting-Template/assets/77563588/a054778f-e457-4c71-939d-f751861e87d0)
+
+   
     > If you still do not see the device, ensure that the headset is connected over USB.
     >
     > If it still does not appear, ensure that on the headset developer mode is enabled and you have allowed your computer access to debugging (a window in the headset should appear when you connect to your computer, asking to allow permissions).
-7. Click **Build and Run**. When it is finished, it will already be running on the headset.
+8. Click **Build and Run**. When it is finished, it will already be running on the headset.
     > The application is now on the headset! You can open it
     > again by going to the headset's app library, and navigating
     > to the **Unknown Sources** section.
