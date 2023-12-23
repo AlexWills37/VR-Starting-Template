@@ -2,7 +2,7 @@
 This project is a template for making VR projects for the **Quest 2** in **Unity**. 
 It uses slightly outdated versions of Unity and the Oculus Integration Package, but these versions work well.
 
-Feel free to fork or download this repository and use it as a starting place for VR projects.
+This project can be forked or downloaded to use as a starting place for other VR projects.
 
 
 **What's included in this repository?**
