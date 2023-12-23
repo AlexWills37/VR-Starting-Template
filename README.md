@@ -1,9 +1,14 @@
 # VR-Starting-Template
-Template project for a Quest 2 VR game built in Unity.
-
-**What's included in this project?**
-
 This project is a template for making VR projects for the **Quest 2** in **Unity**.
+
+Feel free to fork or download this repository and use it as a starting place for VR projects.
+
+
+**What's included in this repository?**
+- Template scene where the player can move around in VR
+- VR module of the Oculus Integration Package
+- [Quickstart guide](#quickstart-guide)
+- [Information on Oculus Integration Package](#understanding-the-oculus-integration-package)
 
 **Resources:**
 - [Unity Hub](https://unity.com/download)
@@ -86,6 +91,42 @@ This guide has three sections:
 
 
 # Understanding the Oculus Integration Package
+
+### File Structure
+In the **Assets** section of the Unity project, the Oculus Integration Package adds an `Oculus/` folder. 
+This folder contains subfolders for each module, such as `VR/` (this repository only has the VR folder. To learn how to use
+other modules, look at the [Other Modules](#using-other-modules) section of this README).
+
+You can find useful prefabs ready for adding to the project in the `Oculus/VR/Prefabs/` folder (same structure for the other modules, too).
+
+You can find some examples of how the assets work in the `Oculus/VR/Scenes/` folder.
+
+## Important features
+### Camera Rig
+To make any VR project for the Quest work, you need the **OVRCameraRig**. This is a prefab in the `Oculus/VR/Prefabs/` folder that takes care of the player's cameras and tracking their head and hands.
+To use it, just add it to the scene and delete the **Main Camera** that is added to scenes by default.
+
+**In the inspector, for the `OVR Manager` component, consider switching `Tracking Origin Type` to `Floor Level`**.
+This option determines how the real world relates to the virtual world.
+
+- **Eye Level**: the camera's starting position will start where it is placed in the scene, ignoring the player's height.
+- **Floor Level**: the camera's starting position will adjust so the camera's virtual height (relatively) matches the player's starting height.
+> With **Floor Level** selected, the real world floor will match the virtual floor.
+
+### Player Controller
+Instead of adding the **OVRCameraRig**, you might want to add the **OVRPlayerController** from the same folder. 
+This prefab has the **OVRCameraRig** built-in, and it has the additional functions of giving the player a physical collider and the ability to move around.
+
+You can experiment with the settings of the player controller in the inspector.
+
+### Hands!
+You can add models for the hands by dragging the models under the `LeftHandAnchor` and `RightHandAnchor` in the
+hierarchy of the **OVRCameraRig**.
+
+The `Oculus/VR/Prefabs/` folder has an `OVRControllerPrefab` 
+which you can add to the `Left/RightControllerAnchor` to give the player a visual of their controller in the game.
+For Quest 2 controllers, select the **L Touch** and **R Touch** options in the inspector for the left and right controllers respectively.
+
 
 ## Using other modules
 This project only contains the VR module of the package. In my experience, I have not used any other modules (besides SampleFrameworks for example scenes and assets).
