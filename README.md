@@ -70,6 +70,9 @@ This guide has three sections:
 
     4b. If there are any items in the **Outstanding Issues** section or **Recommended Items** section, click **Fix All** and **Apply All**.
 
+   ![Image of the Oculus section of the Project Settings with circles around the Fix All and Apply All buttons](https://github.com/AlexWills37/VR-Starting-Template/assets/77563588/b57f78da-7810-4ec4-9eaf-6c65430fb591)
+
+
 #### Building to the headset
 1. Enable developer mode on the headset.
     > Follow [Meta's guide here](https://developer.oculus.com/documentation/unity/unity-env-device-setup/) in case the process ever changes.
