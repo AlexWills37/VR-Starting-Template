@@ -64,8 +64,13 @@ This guide has three sections:
 2. In the Unity Hub, click **Add** to add a project.
 3. Find and select the **Quest 2 Template** folder from this repository to add it to the Unity Hub and open the project.
     > The first time you open the project will take longer than all future times you open it.
+4. When the project opens for the first time, in the top menu bar, click **Edit > Project Settings...**
+    
+    4a. Click on **Oculus** on the side bar
 
-### Building to the headset
+    4b. If there are any items in the **Outstanding Issues** section or **Recommended Items** section, click **Fix All** and **Apply All**.
+
+#### Building to the headset
 1. Enable developer mode on the headset.
     > Follow [Meta's guide here](https://developer.oculus.com/documentation/unity/unity-env-device-setup/) in case the process ever changes.
 2. Connect headset to computer with USB.
